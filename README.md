@@ -48,12 +48,12 @@ cd sales-etl-pipeline
 python -m venv venv
 source venv/bin/activate  # En Windows: venv\Scripts\activate
 ```
-4.	Instalar dependencias:
+3.	Instalar dependencias:
 ```
 pip install -r requirements.txt
 ```
 
-5.	Configurar variables de entorno:
+4.	Configurar variables de entorno:
 ```
 cp .env.example .env
 # Editar .env con tus credenciales
