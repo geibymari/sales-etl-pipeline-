@@ -38,33 +38,39 @@ sales-etl-pipeline/ ├── data/ # Datos raw y procesados ├── src/ # C�
 ### Pasos
 
 1.  Clonar el repositorio:
-``bash
+
+```bash
 git clone https://github.com/tu-usuario/sales-etl-pipeline.git
 cd sales-etl-pipeline
-
+```
 2.	Crear entorno virtual:
+```
 python -m venv venv
 source venv/bin/activate  # En Windows: venv\Scripts\activate
-
-3.	Instalar dependencias:
+```
+4.	Instalar dependencias:
+```
 pip install -r requirements.txt
+```
 
-4.	Configurar variables de entorno:
+5.	Configurar variables de entorno:
+```
 cp .env.example .env
 # Editar .env con tus credenciales
+```
 
 ### 💻 Uso
 
 ### Ejecutar pipeline completo:
-
+```
 python src/pipeline.py
-
+```
 ### Ejecutar etapas individuales:
-
+```
 python src/extract.py
 python src/transform.py
 python src/load.py
-
+```
 ### 🧪 Testing
 pytest tests/
 
