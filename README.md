@@ -25,14 +25,14 @@ Pipeline ETL automatizado que procesa datos de ventas desde archivos CSV, realiz
 - **logging** - Monitoreo
 
 ## 📁 Estructura del Proyecto
-
+```
 sales-etl-pipeline/ 
 ├── data/ # Datos raw y procesados 
 ├── src/ # Código fuente 
 ├── notebooks/ # Análisis exploratorio 
 ├── tests/ # Tests unitarios 
 └── config/ # Archivos de configuración
-
+```
 ## 🚀 Instalación
 
 ### Prerrequisitos
